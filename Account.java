@@ -60,6 +60,10 @@ public class Account implements Serializable {
       return this.balance += amount;
 
     }
+    public void displayAccountDetails(){
+      System.out.println("you access your account " +this.Name);
+      //System.out.println("you deposited " +deposit(this.pin, this.amount)+ " and withdrew " +withdraw(this.pin, this.amount));
+    }
 
 
 
